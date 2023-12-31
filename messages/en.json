@@ -1,0 +1,63 @@
+{
+    "Header": {
+        "Home": "Home",
+        "About": "About",
+        "Projects": "Projects",
+        "Skills": "Skills",
+        "Experience": "Experience",
+        "Contact": "Contact"
+    },
+    "Intro": {
+        "intro": "<bold>Hello, I'm Jason</bold>, a <bold>full-stack developer</bold> with <bold>2 years</bold> of experience.<br></br>I enjoy exploring different challenges.<br></br>My focus is <bold>React (Next.js)</bold>.",
+        "contactMe": "Contact Me Here",
+        "downloadCV": "Download CV"
+    },
+    "About": {
+        "title": "About Me",
+        "content": "<p>After graduating with a degree in <b>Information Management</b>, I made the decision to follow my passion for programming. I honed my skills in frontend technologies through online courses, with a particular affinity for the problem-solving aspect of programming. There's a sense of accomplishment I derive from from successfully overcoming challenges. My core stack comprises <b>React and Next.js</b>, and I am consistently eager to explore and learn new technologies. I am currently in active seeking a full-time position as a <b>frontend developer</b>.</p> <p>Outside of coding, I find joy in playing computer games and watching movies. Moreover, I have a deep passion for <b>traveling around the world</b> to discover and explore new experiences.</p>"
+    },
+    "Projects": {
+        "title": "My Projects",
+        "projectsData": {
+            "qrcode": {
+                "title": "QR Code Ordering",
+                "description": "I served as a full-stack developer in this project, developing corresponding features based on different ordering modes to provide catering businesses with QR code ordering services."
+            }
+        }
+    },
+    "Skills": {
+        "title": "My Skills"
+    },
+    "Experience": {
+        "title": "My Experience",
+        "experienceData": {
+            "edu": {
+                "title": "Education",
+                "location": "Chung Yuan Christian University, Taoyuan",
+                "description": "I graduated with a bachelor’s degree in Information Management."
+            },
+            "goldenup": {
+                "title": "Software Engineer",
+                "location": "GoldenUp Information, Taipei",
+                "description": {
+                    "d_list1": "Developed and maintained a restaurant POS management system, including QRCode Qrdering.",
+                    "d_list2": "Developed and maintained an e-commerce website, assisting in the integration of third-party e-ticketing APIs.",
+                    "d_list3": "Integrated WebSocket technology to implement real-time calling functionality.",
+                    "d_list4": "Optimized web page speed and performance, enhancing user experience.",
+                    "d_list5": "Developed RESTful APIs for system functionality and authored relevant documentation."
+                }
+            }
+        }
+    },
+    "Contact": {
+        "title": "Contact Me",
+        "subtitle": "Please contact me directly at <email></email> or through this form.",
+        "placeholderEmail": "Your Email",
+        "placeholderMessage": "Your Message",
+        "submit": "Submit"
+    },
+    "Footer": {
+        "copyright": "Copyright \u00A9 {year} jason57zxc. All rights reserved.",
+        "about": "<bold>About this website:</bold> built with React & Next.js, TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting."
+    }
+}

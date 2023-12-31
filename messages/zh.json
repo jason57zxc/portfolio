@@ -1,0 +1,63 @@
+{
+    "Header": {
+        "Home": "首頁",
+        "About": "關於",
+        "Projects": "專案",
+        "Skills": "技能",
+        "Experience": "經歷",
+        "Contact": "聯絡"
+    },
+    "Intro": {
+        "intro": "<bold>嗨，我是邱定騰</bold><br></br>有<bold>兩年全端工程師</bold>的經驗。<br></br>我喜歡嘗試不同的事物。<br></br>專注在前端框架<bold>React(Next.js)</bold>。",
+        "contactMe": "與我聯繫",
+        "downloadCV": "履歷下載"
+    },
+    "About": {
+        "title": "關於我",
+        "content": "<p>在獲得<b>資訊管理學位</b>後，我決定追隨我對程式設計的熱情。透過線上課程，我學習了前端技術，尤其喜歡程式設計中解決問題的部分。成功克服挑戰所帶來的成就感是我熱情的來源。我的主要技術包括<b>React和Next.js</b>，我一直熱衷於探索並學習新技術。目前，我積極尋找全職<b>前端開發者</b>的職位。</p><p>在不碰程式碼的時候，我喜歡玩電腦遊戲和看電影。此外，我對<b>出國旅遊</b>探索新經歷有著深深的熱愛。</p>"
+    },
+    "Projects": {
+        "title": "我的專案",
+        "projectsData": {
+            "qrcode": {
+                "title": "QR Code點餐",
+                "description": "在專案中擔任全端開發者的角色，依不同點餐模式開發相應功能，提供餐飲業者掃碼點餐的服務。"
+            }
+        }
+    },
+    "Skills": {
+        "title": "我的技能"
+    },
+    "Experience": {
+        "title": "我的經歷",
+        "experienceData": {
+            "edu": {
+                "title": "學士",
+                "location": "中原大學",
+                "description": "畢業於資訊管理學系。"
+            },
+            "goldenup": {
+                "title": "軟體開發工程師",
+                "location": "金旭資訊",
+                "description": {
+                    "d_list1": "開發及維護餐飲POS管理系統、QR Code點餐",
+                    "d_list2": "開發及維護購物網站、協助串接第三方電子票券API",
+                    "d_list3": "整合WebSocket技術，實現即時叫號功能",
+                    "d_list4": "優化網頁速度與效能，提高用戶體驗",
+                    "d_list5": "開發系統後端RESTful API及撰寫相關文件"
+                }
+            }
+        }
+    },
+    "Contact": {
+        "title": "聯絡我",
+        "subtitle": "請透過 <email></email> 或此表單與我聯絡。",
+        "placeholderEmail": "您的信箱",
+        "placeholderMessage": "留言的訊息",
+        "submit": "送出"
+    },
+    "Footer": {
+        "copyright": "Copyright \u00A9 {year} jason57zxc. 保留一切權利。",
+        "about": "<bold>關於此網站：</bold>由React & Next.js、TypeScript、Tailwind CSS、Framer Motion、React Email & Resend、next-intl建立，部署於Vercel。"
+    }
+}
