@@ -8,20 +8,20 @@ import ThemeContextProvider from '@/context/theme-context'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import SwitchGroup from '@/components/switch-group'
+import { Locales } from '@/lib/types';
 
 const inter = Inter({ subsets: ['latin'] })
-const locales = ['zh-TW', 'en'];
 
 export const metadata = {
   title: 'Jason Protfolio',
-  description: 'Jason is handsome.',
+  description: "This is Jason's Protfolio page.",
 }
 
 export default function RootLayout({
   children, locale
 }: {
   children: React.ReactNode,
-  locale: any
+  locale: Locales
 }) {
 
   const messages = useMessages();
