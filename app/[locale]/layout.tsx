@@ -21,7 +21,7 @@ export default function RootLayout({
   children, locale
 }: {
   children: React.ReactNode,
-  locale: Locales
+  locale: Locales[number]
 }) {
 
   const messages = useMessages();
