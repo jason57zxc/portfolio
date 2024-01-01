@@ -5,9 +5,8 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import SectionHeading from './section-heading';
 import { useSectionInView, useTheme } from '@/lib/hooks';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { experiencesData } from '@/lib/data';
-import { Locales } from '@/lib/types';
 
 type Props = {}
 

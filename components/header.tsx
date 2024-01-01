@@ -13,7 +13,7 @@ export default function Header({ }: Props) {
     const { activeSection, setActiveSection, setTimeLastClick } = useActiveSectionContext()
     const locale = useLocale()
     const t = useTranslations('Header')
-    console.log(locale)
+
     return (
         <header className="z-[999] relative">
             <motion.div

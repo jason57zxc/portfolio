@@ -17,15 +17,20 @@ export const metadata = {
   description: "This is Jason's Protfolio page.",
 }
 
-export default function RootLayout({
-  children, locale
-}: {
+type Props = {
   children: React.ReactNode,
-  locale: Locales[number]
-}) {
+  params: {
+    locale: Locales
+  }
+}
+
+export default function RootLayout({
+  children,
+  params: { locale }
+}:
+  Props) {
 
   const messages = useMessages();
-
   return (
     <html lang={locale} className="!scroll-smooth">
       <body className={`${inter.className} bg-gray-50 text-gray-950 
