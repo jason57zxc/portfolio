@@ -13,8 +13,8 @@ import { Locales } from '@/lib/types';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Jason Protfolio',
-  description: "This is Jason's Protfolio page.",
+  title: 'Jason Portfolio',
+  description: "This is Jason's Portfolio page.",
 }
 
 type Props = {
