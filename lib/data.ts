@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import qrcodeOrdering from "@/public/qrcodeOrdering.jpeg";
 
 export const locales = ['zh', 'en'] as const
 
@@ -128,7 +126,7 @@ export const projectsData = [
         title: "title",
         description: "description",
         tags: ["ASP.NET(VB.NET)", "JavaScript", "jQuery", "Bootstrap", "SQL Server"],
-        imageUrl: corpcommentImg,
+        imageUrl: qrcodeOrdering,
     }
 ] as const;
 

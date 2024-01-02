@@ -39,11 +39,10 @@ export default function Project({
             className="group mb-3 sm:mb-8 last:mb-0"
         >
             <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg flex
-            overflow-hidden sm:pr-8 relative sm:min-h-[20rem]
-            hover:bg-gray-200 transition sm:group-even:pl-8
+            overflow-hidden relative sm:min-h-[20rem]
+            hover:bg-gray-200 transition
             dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-                <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-auto 
-                sm:group-even:ml-[18rem]">
+                <div className="mt-4 mb-7 mx-5 sm:ml-10 sm:mr-2 sm:mt-10 sm:w-[50%] flex flex-col h-auto ">
                     <h3 className="text-2xl font-semibold">
                         {t(`${id}.title`)}
                     </h3>
@@ -83,23 +82,27 @@ export default function Project({
 
                             group-even:right-[initial] group-even:-left-40"
                     /> */}
+
+                </div>
+                <div className="mt-4 mb-7 mx-5 hidden sm:block h-auto overflow-hidden w-[50%] 
+                sm:mr-2 sm:ml-2 sm:mt-10] group-even:-order-1">
                     <Image
                         src={imageUrl}
-                        alt={`${title} Project`}
+                        alt={`${t('title')} Project`}
                         quality={95}
                         priority={true}
                         draggable={false}
-                        className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+                        className="max-h-[20rem] object-contain object-center
+                            rounded-lg
                             transition 
-                            group-hover:scale-[1.10]
-                            group-hover:-translate-x-3
-                            group-hover:translate-y-3
-
-                            group-even:group-hover:translate-x-3
-                            group-even:group-hover:translate-y-3
-
-                            group-even:right-[initial] group-even:-left-40"
+                            group-hover:scale-[1.08]"
                     />
+
+                    {/* group-hover:-translate-x-3
+                    group-hover:translate-y-3
+
+                    group-even:group-hover:translate-x-3
+                    group-even:group-hover:translate-y-3 */}
                 </div>
             </section>
         </motion.div>
