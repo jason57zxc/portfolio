@@ -58,68 +58,6 @@ export const experiencesData = [
     }
 ] as const;
 
-// export const experiencesData = {
-//     en: [
-//         {
-//             id: "",
-//             title: "Education",
-//             location: "Chung Yuan Christian University, Taoyuan",
-//             description:
-//                 "I graduated with a bachelor’s degree in Information Management.",
-//             icon: React.createElement(LuGraduationCap),
-//             date: "2016 - 2019",
-//         },
-//         {
-//             title: "Full-Stack Developer",
-//             location: "GoldenUp Information, Taipei",
-//             description:
-//                 "Developed and maintained a restaurant POS management system.",
-//             icon: React.createElement(FaReact),
-//             date: "2021 - 2023",
-//         }
-//     ],
-//     zh: [
-//         {
-//             title: "學士",
-//             location: "中原大學",
-//             description:
-//                 "畢業於資訊管理學系。",
-//             icon: React.createElement(LuGraduationCap),
-//             date: "2016 - 2019",
-//         },
-//         {
-//             title: "軟體開發工程師",
-//             location: "金旭資訊",
-//             description:
-//                 [
-//                     "開發及維護餐飲POS管理系統、QR Code點餐",
-//                     "開發及維護購物網站、協助串接第三方電子票券API",
-//                     "整合WebSocket技術，實現即時叫號功能",
-//                     "優化網頁速度與效能，提高用戶體驗",
-//                     "開發系統後端API及撰寫相關文件"
-//                 ],
-//             icon: React.createElement(FaReact),
-//             date: "2021 - 2023",
-//         }
-//     ]
-// {
-//     title: "Front-End Developer",
-//     location: "Orlando, FL",
-//     description:
-//         "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2019 - 2021",
-// },
-// {
-//     title: "Full-Stack Developer",
-//     location: "Houston, TX",
-//     description:
-//         "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-//     icon: React.createElement(FaReact),
-//     date: "2021 - present",
-// },
-
-
 export const projectsData = [
     {
         id: "qrcode",
@@ -129,11 +67,6 @@ export const projectsData = [
         imageUrl: qrcodeOrdering,
     }
 ] as const;
-
-// export const projectsData = [
-//     "corpComment", "rmtDev", "wordAnaly"
-// ] as const;
-
 
 export const skillsData = [
     "HTML",
