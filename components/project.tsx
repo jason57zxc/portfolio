@@ -88,7 +88,7 @@ export default function Project({
                 sm:mr-2 sm:ml-2 sm:mt-10] group-even:-order-1">
                     <Image
                         src={imageUrl}
-                        alt={`${t('title')} Project`}
+                        alt={`${t(`${id}.title`)} Project`}
                         quality={95}
                         priority={true}
                         draggable={false}
