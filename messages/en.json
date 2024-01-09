@@ -54,7 +54,8 @@
         "subtitle": "Please contact me directly at <email></email> or through this form.",
         "placeholderEmail": "Your Email",
         "placeholderMessage": "Your Message",
-        "submit": "Submit"
+        "submit": "Submit",
+        "successMsg": "Thanks for your contact!"
     },
     "Footer": {
         "copyright": "Copyright \u00A9 {year} jason57zxc. All rights reserved.",

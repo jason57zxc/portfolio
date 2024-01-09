@@ -6,19 +6,22 @@ import { sendEmail } from '@/actions/sendEmail'
 import SubmitBtn from './contact-submit-button'
 import { useTranslations } from 'next-intl'
 import { MotionSection } from './client/Motion'
+import toast from "react-hot-toast"
 
 type Props = {}
 
 export default function Contact({ }: Props) {
+    const section = 'Contact'
     const { ref } = useSectionInView({
-        section: 'Contact'
+        section
     })
     const myEmail = 'jason57zxc@gmail.com'
-    const t = useTranslations('Contact')
+    const t = useTranslations(section)
+    const formRef = React.useRef<HTMLFormElement>(null);
     return (
         <MotionSection
             ref={ref}
-            id="contact"
+            id={section.toLowerCase()}
             className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28"
             initial={{
                 opacity: 0,
@@ -59,9 +62,16 @@ export default function Contact({ }: Props) {
             </p>
 
             <form
+                ref={formRef}
                 action={async (formData) => {
-                    console.log(formData)
-                    await sendEmail(formData)
+                    const { error } = await sendEmail(formData)
+                    if (error) {
+                        toast.error(error);
+                        return;
+                    }
+
+                    toast.success(t('successMsg'))
+                    formRef.current?.reset()
                 }}
                 className="mt-10 flex flex-col dark:text-black">
                 <input

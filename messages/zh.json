@@ -54,7 +54,8 @@
         "subtitle": "請透過 <email></email> 或此表單與我聯絡。",
         "placeholderEmail": "您的信箱",
         "placeholderMessage": "留言的訊息",
-        "submit": "送出"
+        "submit": "送出",
+        "successMsg": "感謝您的聯繫！"
     },
     "Footer": {
         "copyright": "Copyright \u00A9 {year} jason57zxc. 保留一切權利。",

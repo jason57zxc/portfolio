@@ -2,6 +2,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { Toaster } from "react-hot-toast";
+
 import ActiveSectionContextProvider from '@/context/active-section-context'
 import ThemeContextProvider from '@/context/theme-context'
 
@@ -50,7 +52,7 @@ export default function RootLayout({
               {children}
               <Footer />
               <SwitchGroup />
-              {/* <LocaleSwitcher /> */}
+              <Toaster position="top-center" />
             </ActiveSectionContextProvider>
           </ThemeContextProvider>
         </NextIntlClientProvider>
