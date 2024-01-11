@@ -13,12 +13,10 @@ import SwitchGroup from '@/components/switch-group'
 import type { Metadata } from "next";
 import type { Locales } from '@/lib/types';
 
-const inter = Inter({ subsets: ['latin'] })
-
-// export const metadata = {
-//   title: 'Jason Portfolio',
-//   description: "This is Jason's Portfolio page.",
-// }
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export const metadata: Metadata = {
   title: "Jason57zxc's Portfolio",
