@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     { name: "jason57zxc" },
   ],
   icons: [
-    { rel: "apple-touch-icon", url: "icons/icon-256x256.png" },
-    { rel: "icon", url: "icons/icon-256x256.png" },
+    { rel: "apple-touch-icon", url: "icons/icon_x256.png" },
+    { rel: "icon", url: "icons/icon_x256.png" },
   ],
 };
 
