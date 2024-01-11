@@ -89,8 +89,7 @@ export default function Project({
                     <Image
                         src={imageUrl}
                         alt={`${t(`${id}.title`)} Project`}
-                        quality={95}
-                        priority={true}
+                        quality={90}
                         draggable={false}
                         className="max-h-[20rem] object-contain object-center
                             rounded-lg

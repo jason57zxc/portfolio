@@ -18,11 +18,19 @@ const inter = Inter({
   display: 'swap'
 })
 
+export const viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: 'white' },
+    { media: '(prefers-color-scheme: dark)', color: 'black' },
+  ],
+}
+
 export const metadata: Metadata = {
   title: "Jason57zxc's Portfolio",
   description: "This is jason57zxc's Portfolio page.",
   generator: "Next.js",
   manifest: "/manifest.json",
+  viewport: "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
   keywords: ["nextjs", "pwa", "next-pwa", "jason57zxc"],
   authors: [
     { name: "jason57zxc" },

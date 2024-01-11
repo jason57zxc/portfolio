@@ -12,12 +12,12 @@ const withPWA = require("next-pwa")({
 
 const nextConfig = {
     images: {
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'instagram.ftpe2-1.fna.fbcdn.net',
-            },
-        ],
+        // remotePatterns: [
+        //     {
+        //         protocol: 'https',
+        //         hostname: 'instagram.ftpe2-1.fna.fbcdn.net',
+        //     },
+        // ],
     },
     experimental: {
         serverActions: true,
