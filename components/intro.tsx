@@ -41,7 +41,7 @@ export default function Intro({ }: Props) {
                         <Image
                             src={profileImg}
                             alt="Jason's Profile"
-                            quality="90"
+                            quality="80"
                             priority={true}
                             draggable={false}
                             className="h-28 w-28 rounded-2xl object-cover border-[0.35rem] border-white shadow-xl"
@@ -140,6 +140,7 @@ export default function Intro({ }: Props) {
                     href="https://github.com/jason57zxc"
                     target="_blank"
                     draggable={false}
+                    aria-label="GitHub"
                 >
                     <FaGithubSquare />
                 </a>

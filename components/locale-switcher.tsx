@@ -10,17 +10,18 @@ type Props = {
 
 export default function LocaleSwitcher({ }: Props) {
 
-    const lang = useLocale()
+    const locale = useLocale()
+    const lang = locale === 'en' ? 'zh' : 'en'
 
     return (
         <Link
-            //href={}
+            aria-label="Switch Language"
             draggable={false}
             href={{
-                pathname: `/${lang === 'en' ? 'zh' : 'en'}`,
+                pathname: `/${lang}`,
             }}
-            locale={lang === 'en' ? 'zh' : 'en'}
-            hrefLang={lang === 'en' ? 'zh' : 'en'}
+            locale={lang}
+            hrefLang={lang}
             className="bg-white w-[3rem] h-[3rem] bg-opacity-80 
             backdrop-blur-[0.5rem] border border-white border-opacity-40 
             shadow-2xl rounded-full flex items-center justify-center 
