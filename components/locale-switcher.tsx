@@ -22,6 +22,7 @@ export default function LocaleSwitcher({ }: Props) {
             }}
             locale={lang}
             hrefLang={lang}
+            prefetch={false}
             className="bg-white w-[3rem] h-[3rem] bg-opacity-80 
             backdrop-blur-[0.5rem] border border-white border-opacity-40 
             shadow-2xl rounded-full flex items-center justify-center 
