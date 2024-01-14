@@ -27,7 +27,7 @@ export default function Intro({ }: Props) {
         <section
             ref={ref}
             id="home"
-            className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+            className="pt-28 sm:pt-32 mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <motion.div
