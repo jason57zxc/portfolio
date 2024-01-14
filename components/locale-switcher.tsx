@@ -12,7 +12,8 @@ export default function LocaleSwitcher({ }: Props) {
 
     const locale = useLocale()
     const lang = locale === 'en' ? 'zh' : 'en'
-
+    console.log('locale lang:', lang)
+    console.log('locale locale:', locale)
     return (
         <Link
             aria-label="Switch Language"

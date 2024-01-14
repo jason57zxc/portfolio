@@ -53,7 +53,7 @@ export default function RootLayout({
   params: { locale }
 }:
   Props) {
-
+  console.log('layout:', locale)
   const messages = useMessages();
   return (
     <html lang={locale} className="!scroll-smooth">
